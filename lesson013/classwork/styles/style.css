@@ -1,0 +1,197 @@
+* {
+  transition: all .5s;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 962px;
+  margin: 0 auto;
+}
+
+.row {
+  margin-bottom: 22px;
+}
+
+.row::after {
+  display: block;
+  content: '.';
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+[class*="span"] {
+  float: left;
+  display: inline;
+  margin-right: 22px;
+}
+
+[class*="span"]:last-child {
+  margin-right: 0;
+  float: right;
+}
+
+.span1 {
+  width: 60px;
+}
+
+.span2 {
+  width: 142px;
+}
+
+.span3 {
+  width: 224px;
+}
+
+.span4 {
+  width: 306px;
+}
+
+.span5 {
+  width: 388px;
+}
+
+.span6 {
+  width: 470px;
+}
+
+.span7 {
+  width: 552px;
+}
+
+.span8 {
+  width: 634px;
+}
+
+.span9 {
+  width: 716px;
+}
+
+.span10 {
+  width: 798px;
+}
+
+.span11 {
+  width: 880px;
+}
+
+.span12 {
+  width: 962px;
+}
+
+.offset1 {
+  margin-left: : 60px;
+}
+
+.offset2 {
+  margin-left: : 142px;
+}
+
+.offset3 {
+  margin-left: : 224px;
+}
+
+.offset4 {
+  margin-left: : 306px;
+}
+
+.offset5 {
+  margin-left: : 388px;
+}
+
+.offset6 {
+  margin-left: : 470px;
+}
+
+.offset7 {
+  margin-left: : 552px;
+}
+
+.offset8 {
+  margin-left: : 634px;
+}
+
+.offset9 {
+  margin-left: : 716px;
+}
+
+.offset10 {
+  margin-left: : 798px;
+}
+
+.offset11 {
+  margin-left: : 880px;
+}
+
+.offset12 {
+  margin-left: : 962px;
+}
+
+.header {
+  margin-top: 22px;
+}
+
+.header h1 {
+  font-weight: bold;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.search {
+  margin-top: 40px;
+  text-align: right;
+}
+
+.search input {
+  width: 100px;
+  height: 30px;
+}
+
+.slider {
+  height: 250px;
+  background-color: red;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.thumb {
+  height: 100px;
+  background-color: red;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar {
+  padding-top: 30px;
+}
+
+.sidebar nav ul {
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  list-style: none;
+}
+
+.sidebar nav ul li a {
+  text-decoration: none;
+  color: #eee;
+  background-color: #bbb;
+  display: block;
+  width: 142px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin-bottom: 1px;
+}
+
+.sidebar nav ul li a:hover {
+  background-color: #aaa;
+}
+
+.content{
+  padding: 0 20px;
+  margin-bottom: 80px;
+}
+
+.footer {
+  color: #444;
+  text-align: right;
+  border-top: 1px solid #888;
+}
